@@ -281,10 +281,7 @@ hr {
   position: relative;
 }
 .content {
-  padding: 50px 0;
-}
-.content section {
-  padding-top: 50px;
+  padding: 30px 0;
 }
 /* =============================================================================
    BASIC STYLES
@@ -313,6 +310,9 @@ p {
   position: relative;
   top: -1px;
 }
+.section-title {
+  font-family: fantasy;
+}
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
@@ -333,7 +333,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding: 200px 0 200px;
   text-align: center;
 }
 .logo-name {
@@ -372,7 +372,7 @@ nav {
 .call-action-area .call-action-link:focus,
 .btn:hover,
 .btn:focus {
-  top: 0;
+  background-color: rgb(79,195,247);
 }
 /* =============================================================================
    ABOUT
@@ -716,7 +716,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  background-image: url('../img/cover.jpg');
+  background-image: url('../img/cover.png');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -732,13 +732,12 @@ nav {
   font-weight: normal;
 }
 .call-action-area .price {
-  color: #fddd52;
+  color: rgb(66,133,244);
 }
 .call-action-area .call-action-link,
 .btn {
-  background-color: #fddd52;
-  color: #2b2b2b;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: rgb(66,133,244);
+  color: rgb(255,255,255);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 .github-link {
@@ -754,20 +753,26 @@ nav {
    CONTENT
    ========================================================================== */
 .content a {
-  color: #f0a303;
+  color: rgb(66,133,244);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .content a:hover,
 .content a:focus {
-  color: #fddd52;
-  text-decoration: underline;
+  color: rgb(79,195,247);
+  text-decoration: none;
 }
 /* =============================================================================
    ABOUT
    ========================================================================== */
 .about {
-  border: 1px solid #e7e7e7;
-  background: #fff;
-  border-radius: 4px;
+  background: rgb(35, 85, 78);
+  color: #ddd;
+}
+.about .section-title {
+  color: #fff;
 }
 /* =============================================================================
    LOCATION
@@ -795,7 +800,7 @@ nav {
 }
 .speech-time {
   color: #fff;
-  background: #2b2b2b;
+  background: rgb(0,191,165);
   border-radius: 8px;
 }
 /* =============================================================================
