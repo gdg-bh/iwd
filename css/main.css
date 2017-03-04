@@ -333,7 +333,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 200px 0 200px;
+  padding-top:250px;
   text-align: center;
 }
 .logo-name {
@@ -341,7 +341,12 @@ nav {
   font-size: 10em;
   letter-spacing: -0.04em;
 }
+.logotipo{
+  width: 60%;
+  height: auto;
+}
 .tagline {
+  margin-top: 40px;
   margin-bottom: 50px;
   font-size: 2em;
   letter-spacing: -0.02em;
@@ -716,11 +721,12 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  background-image: url('../img/cover.png');
+  background-image: url('../img/cover2.jpg');
   background-color: #2b2b2b;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-size: cover;
   background-size: 100% auto;
+  height: 100vh;
 }
 .logo-link,
 .tagline,
