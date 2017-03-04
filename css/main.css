@@ -333,7 +333,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding-top:250px;
+  padding:250px;
   text-align: center;
 }
 .logo-name {
@@ -726,7 +726,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100% auto;
-  height: 100vh;
+ 
 }
 .logo-link,
 .tagline,
@@ -776,6 +776,14 @@ nav {
 .about {
   background: rgb(35, 85, 78);
   color: #ddd;
+}
+
+.about a{
+  color: #00BFA5;
+}
+
+.about a:hover{
+  color: #1CE9B6;
 }
 .about .section-title {
   color: #fff;
